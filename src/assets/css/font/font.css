@@ -1,0 +1,242 @@
+/* PP Eiko */
+@font-face {
+    font-family: 'PP Eiko';
+    src: url('PPEiko-Thin.eot');
+    src: url('PPEiko-Thin.eot?#iefix') format('embedded-opentype'),
+        url('PPEiko-Thin.woff2') format('woff2'),
+        url('PPEiko-Thin.woff') format('woff'),
+        url('PPEiko-Thin.ttf') format('truetype'),
+        url('PPEiko-Thin.svg#PPEiko-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Eiko';
+    src: url('PPEiko-Medium.eot');
+    src: url('PPEiko-Medium.eot?#iefix') format('embedded-opentype'),
+        url('PPEiko-Medium.woff2') format('woff2'),
+        url('PPEiko-Medium.woff') format('woff'),
+        url('PPEiko-Medium.ttf') format('truetype'),
+        url('PPEiko-Medium.svg#PPEiko-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Eiko';
+    src: url('PPEiko-Heavy.eot');
+    src: url('PPEiko-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('PPEiko-Heavy.woff2') format('woff2'),
+        url('PPEiko-Heavy.woff') format('woff'),
+        url('PPEiko-Heavy.ttf') format('truetype'),
+        url('PPEiko-Heavy.svg#PPEiko-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* PP Neue Montreal */
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('PPNeueMontreal-Thin.eot');
+    src: url('PPNeueMontreal-Thin.eot?#iefix') format('embedded-opentype'),
+        url('PPNeueMontreal-Thin.woff2') format('woff2'),
+        url('PPNeueMontreal-Thin.woff') format('woff'),
+        url('PPNeueMontreal-Thin.ttf') format('truetype'),
+        url('PPNeueMontreal-Thin.svg#PPNeueMontreal-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('PPNeueMontreal-Book.eot');
+    src: url('PPNeueMontreal-Book.eot?#iefix') format('embedded-opentype'),
+        url('PPNeueMontreal-Book.woff2') format('woff2'),
+        url('PPNeueMontreal-Book.woff') format('woff'),
+        url('PPNeueMontreal-Book.ttf') format('truetype'),
+        url('PPNeueMontreal-Book.svg#PPNeueMontreal-Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('PPNeueMontreal-Medium.eot');
+    src: url('PPNeueMontreal-Medium.eot?#iefix') format('embedded-opentype'),
+    url('PPNeueMontreal-Medium.woff2') format('woff2'),
+    url('PPNeueMontreal-Medium.woff') format('woff'),
+        url('PPNeueMontreal-Medium.ttf') format('truetype'),
+        url('PPNeueMontreal-Medium.svg#PPNeueMontreal-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Neue Montreal';
+    src: url('PPNeueMontreal-Bold.eot');
+    src: url('PPNeueMontreal-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PPNeueMontreal-Bold.woff2') format('woff2'),
+        url('PPNeueMontreal-Bold.woff') format('woff'),
+        url('PPNeueMontreal-Bold.ttf') format('truetype'),
+        url('PPNeueMontreal-Bold.svg#PPNeueMontreal-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* SCoreDream */
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 100;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamThin.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 200;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamLight.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamRegular.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamMedium.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 600;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBold.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamExtraBold.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamHeavy.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SCoreDream';
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/score/SCoreDreamBlack.ttf') format("truetype");
+    font-display: swap;
+}
+
+/* NanumMyeongjo */
+@font-face {
+    font-family: 'NanumMyeongjo';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjo.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjo.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjo.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjo.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjo.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'NanumMyeongjo';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjoBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjoBold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjoBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjoBold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjoBold.ttf') format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: 'NanumMyeongjo';
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjoExtraBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjoExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjoExtraBold.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjoExtraBold.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/webfontworld/NanumMyeongjo/NanumMyeongjoExtraBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+/* Abel */
+@font-face {
+    font-family: 'Abel';
+    src: url('Abel-Regular.eot');
+    src: url('Abel-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Abel-Regular.woff2') format('woff2'),
+        url('Abel-Regular.woff') format('woff'),
+        url('Abel-Regular.ttf') format('truetype'),
+        url('Abel-Regular.svg#Abel-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

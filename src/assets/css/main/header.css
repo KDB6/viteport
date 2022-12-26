@@ -1,0 +1,72 @@
+#header {
+    position: fixed;
+    font-family: var(--font-sub2);
+    color: var(--colorB);
+    padding: 1vw 2vw;
+    z-index: 10;
+}
+.header {
+    display: flex;
+    align-items: flex-end;
+}
+.header div:nth-child(1) a {
+    font-size: var(--font-size16);
+    color: var(--colorB);
+}
+.header div:nth-child(2) {
+    margin-left: 5vw;
+}
+.header ul li {
+    display: inline;
+    font-size: var(--font-size14);
+    padding: 1vw;
+}
+.header ul li a {
+    color: var(--colorB);
+}
+
+
+
+/* 반응형 */
+@media (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .header div:nth-child(1) a {
+        font-size: var(--font-size24);
+    }
+    .header ul li {
+        font-size: 1vw;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .header div:nth-child(1) a {
+        font-size: var(--font-size30);
+    }
+    .header ul li {
+        font-size: 1.7vw;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    .header div:nth-child(1) a {
+        font-size: var(--font-size40);
+    }
+    .header ul li {
+        font-size: 2vw;
+    }
+}
