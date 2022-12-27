@@ -2,7 +2,7 @@ import React from 'react'
 
 const Loader = () => {
   return (
-    <div class="progress poppins"><span class="progress-text">portfolio..</span></div>
+    <div className="progress poppins"><span className="progress-text">portfolio..</span></div>
   )
 }
 

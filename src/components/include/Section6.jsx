@@ -6,7 +6,7 @@ const Section6 = () => {
             {/* contact */}
             <article id="contact">
                 <div id="contact__title">contact</div>
-                <div class="contact__info">
+                <div className="contact__info">
                     <div>Phone. 010 7239 1379</div>
                     <div><a href="mailto:ipkg7210@gmail.com">E-mail. ipkg7210@gmail.com</a></div>
                 </div>

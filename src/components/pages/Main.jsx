@@ -15,7 +15,7 @@ import Section6 from "../include/Section6.jsx";
 const Main = () => {
     return (
         <>
-            <Loader />
+            {/* <Loader /> */}
             <Header />
             <Rotate />
             <Contents>
