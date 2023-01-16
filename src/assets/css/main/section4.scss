@@ -1,6 +1,7 @@
 #section4 {
     color: var(--colorW);
     margin-top: var(---25vw);
+    overflow: hidden;
 }
 
 
@@ -84,6 +85,7 @@
     width: 80%;
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 .react__site-img > div:nth-child(2) a img {
     position: absolute;
@@ -464,10 +466,6 @@
 
 /* 반응형 */
 @media (max-width: 1024px) {
-    body {
-        overflow-x: hidden;
-    }
-
     /* react__list */
     .react__site-view {
         padding-bottom: 0.1vw;
@@ -480,10 +478,6 @@
 
 
 @media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-
     /* front__main */
     #front__main {
     }
@@ -619,7 +613,57 @@
 
 
 @media (max-width: 480px) {
-    body {
-        overflow-x: hidden;
+    /* react__site */
+    .react__site-title {
+        align-items: baseline;
+    }
+    .react__site-view > div a {
+        font-size: var(--font-size40);
+    }
+
+
+
+    /* react__api */
+    .react__api-left > div:nth-child(1) {
+        font-size: var(--font-size80);
+    }
+    .react__api-left > div:nth-child(2) {
+        font-size: var(--font-size100);
+    }
+    .react__api-view > div a {
+        font-size: var(--font-size40);
+    }
+    .react__api-left > div:nth-child(4) {
+        font-size: var(--font-size40);
+    }
+
+
+
+    /* react__youtube */
+    .react__youtube-left > div:nth-child(1) {
+        font-size: var(--font-size80);
+    }
+    .react__youtube-left > div:nth-child(2) {
+        font-size: var(--font-size100);
+    }
+    .react__youtube-view > div a {
+        font-size: var(--font-size40);
+    }
+    .react__youtube-left > div:nth-child(4) {
+        font-size: var(--font-size40);
+    }
+
+
+
+    /* vue__site */
+    .vue__site-view > div a {
+        font-size: var(--font-size40);
+    }
+
+
+
+    /* vue__api */
+    .vue__api-view > div a {
+        font-size: var(--font-size40);
     }
 }

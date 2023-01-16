@@ -2,6 +2,7 @@
     color: var(--colorW);
     background: var(--colorB);
     padding-top: var(---25vw);
+    overflow: hidden;
 }
 
 
@@ -34,7 +35,7 @@
     opacity: 0.02;
     position: absolute;
     top: -8vw;
-    left: 8vw;
+    /* left: 8vw; */
 }
 
 
@@ -298,10 +299,6 @@
 
 /* 반응형 */
 @media (max-width: 1024px) {
-    body {
-        overflow-x: hidden;
-    }
-
     /* php__main */
     .php__main-back {
         top: -5vw;
@@ -311,12 +308,9 @@
 
 
 @media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-
     /* php__main */
     #php__main {
+        overflow-x: hidden;
     }
     .php__main-text >div:nth-child(1) {
         font-size: var(--font-size200);
@@ -383,7 +377,7 @@
 
 
 
-    /* php__study */
+    /* php__project */
     .php__project-inner {
         flex-direction: column-reverse;
     }
@@ -414,10 +408,6 @@
 
 
 @media (max-width: 480px) {
-    body {
-        overflow-x: hidden;
-    }
-    
     /* php__main */
     .php__main-back {
         font-size: 70vw;
@@ -426,5 +416,42 @@
         position: absolute;
         top: 65vw;
         left: 8vw;
+    }
+
+
+    /* php__study */
+    .php__study-title > div:nth-child(2) {
+        font-size: var(--font-size40);
+    }
+    .php__study-info {
+        font-size: var(--font-size32);
+    }
+    .php__study-right > div:nth-child(1) {
+        margin-top: 1vw;
+    }
+    .php__study-right > div:nth-child(2) {
+        margin-top: -0.5vw;
+    }
+    .php__study-view > div a {
+        margin-top: -1vw;
+    }
+
+
+
+    /* php__project */
+    .php__project-title > div:nth-child(2) {
+        font-size: var(--font-size40);
+    }
+    .php__project-info {
+        font-size: var(--font-size32);
+    }
+    .php__project-right > div:nth-child(1) {
+        margin-top: 1vw;
+    }
+    .php__project-right > div:nth-child(2) {
+        margin-top: -0.5vw;
+    }
+    .php__project-view > div a {
+        margin-top: -1vw;
     }
 }
