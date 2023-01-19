@@ -22,11 +22,11 @@ const Main = () => {
                 <Section1 />
                 <Section2 />
                 <Section3 />
-                <BakcColor>
+                {/* <BakcColor> */}
                     <Section4 />
                     <Section5 />
                     <Section6 />
-                </BakcColor>
+                {/* </BakcColor> */}
             </Contents>
         </>
     )
